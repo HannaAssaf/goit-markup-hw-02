@@ -1,7 +1,8 @@
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 }
 
 .link {
@@ -20,6 +21,7 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11px;
+letter-spacing: 0.02em;
 text-transform: capitalize; 
 color: #2E2F42;
  }
@@ -32,17 +34,18 @@ color: #2E2F42;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 .accent-color {
     font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-    color: #4D5AE5;
-  }
+    color: #2E2F42;
+}
 .menu-link {
     font-size: 16px;
     font-weight: 500;
@@ -55,6 +58,10 @@ color: #2E2F42;
     line-height: 1.5;
     color: #434455;
 }
+.page-address-list {
+    font-style: normal;
+}
+
 .menu-link:hover,
 .menu-link:focus {
     color:#404BBF; 
@@ -70,16 +77,22 @@ color: #2E2F42;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    text-align: center;
     background: #2E2F42;
     color: #FFFFFF; 
 }
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 .order-servise-btn {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
 }
 .order-servise-btn:hover,
@@ -91,14 +104,13 @@ color: #2E2F42;
 /* =================STUDIO SECTION============== */
 
 .studio-title {
-    text-align: left;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .studio-item {
-    text-align: left;
     font-size: 16px;
     line-height: 1.5;
     color: #434455; 
@@ -110,22 +122,31 @@ color: #2E2F42;
     background: #F4F4FD;
 }
 .team-title {
-    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #2E2F42;
 }
 .section-team-item {
-    text-align: center;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04em; 
+    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF; 
     color: #434455;
 }
 /* ================ /TEAM SECTION================= */
 
 /* ================= PORTFOLIO ===================== */
+
+.section-portfolio {
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
 .portfolio-title {
     font-size: 20px;
