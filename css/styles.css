@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #434455;
+    letter-spacing: 0.02em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+  }
+
+  button {
+    cursor: pointer;
+  }
+ .section-title {
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11px;
+text-transform: capitalize; 
+color: #2E2F42;
+ }
+
+/*==================PAGE HEADER=============== */
+.logotype-nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: #2E2F42;
+}
+.accent-color {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: #4D5AE5;
+  }
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+.page-adress-link {
+    font-size: 16px;
+    font-style: normal; 
+    line-height: 1.5;
+    color: #434455;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color:#404BBF; 
+}
+.page-adress-link:hover,
+.page-adress-link:focus {
+    color:#404BBF; 
+}
+/* =============== /PAGE HEADER================= */
+
+/* =================HERO SECTION=================== */
+.hero {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    background: #2E2F42;
+    color: #FFFFFF; 
+}
+.order-servise-btn {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+}
+.order-servise-btn:hover,
+.order-servise-btn:focus {
+    background: #404BBF;
+}
+/* =================/HERO SECTION================== */
+
+/* =================STUDIO SECTION============== */
+
+.studio-title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.studio-item {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455; 
+}
+/* ==============/STUDIO SECTION================= */
+
+/* ===============TEAM SECTION=================== */
+.section-team {
+    background: #F4F4FD;
+}
+.team-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.section-team-item {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    color: #434455;
+}
+/* ================ /TEAM SECTION================= */
+
+/* ================= PORTFOLIO ===================== */
+
+.portfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+}
+
+/* ================== /PORTFOLIO ================= */
+
+/* ================ FOOTER SECTION =============== */
+.section-footer {
+    background: #2E2F42;
+}
+.logotype-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
+
