@@ -171,10 +171,10 @@ color: #2E2F42;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
 .footer-text {
     font-size: 16px;
@@ -182,4 +182,12 @@ color: #2E2F42;
     line-height: 1.5;
     color: #F4F4FD;
 }
-
+.accent-color-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
