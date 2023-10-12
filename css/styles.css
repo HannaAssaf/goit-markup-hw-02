@@ -20,7 +20,7 @@ body {
 text-align: center;
 font-size: 36px;
 font-weight: 700;
-line-height: 1.11px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize; 
 color: #2E2F42;
@@ -31,7 +31,7 @@ color: #2E2F42;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
     color: #4D5AE5;
@@ -58,7 +58,7 @@ color: #2E2F42;
     line-height: 1.5;
     color: #434455;
 }
-.page-address-list {
+.page-address {
     font-style: normal;
 }
 
@@ -168,10 +168,10 @@ color: #2E2F42;
     background: #2E2F42;
 }
 .logotype-footer {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -183,7 +183,7 @@ color: #2E2F42;
     color: #F4F4FD;
 }
 .accent-color-footer {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
